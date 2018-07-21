@@ -1,0 +1,10 @@
+[ 2018-07-21T08:35:16+08:00 ] 127.0.0.1 /index.php?m=home&c=User&a=login&username=382709807%40qq.com&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `php2018_member` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `php2018_member` WHERE ( `email` = '382709807@qq.com' ) LIMIT 1   [ RunTime:0.000000s ]
+
