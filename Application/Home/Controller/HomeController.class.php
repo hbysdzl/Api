@@ -27,7 +27,7 @@ class HomeController extends Controller{
         //tp中获取请求者的ip地址
         $ip=get_client_ip();
         
-        $allow=array('127.0.0.1');//允许访问的ip集合
+        $allow=array('127.0.0.1','116.62.155.75');//允许访问的ip集合
         if(!in_array($ip,$allow)){
             $this->ajaxReturn(array('status'=>0,'error'=>'无访问权限'));
         }
